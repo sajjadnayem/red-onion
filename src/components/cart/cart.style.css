@@ -1,0 +1,144 @@
+.shipment-address p {
+	color: #000;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 34px;
+	margin: 0;
+}
+
+.shipment-address span {
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.cart-items {
+	margin: 20px 0px;
+	width: 90%;
+}
+
+.cart-item {
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	height: 120px;
+	justify-content: space-evenly;
+	flex-direction: row;
+	background: #f5f5f5;
+	border-radius: 10px;
+	width: 100%;
+}
+
+.cart-item-img img {
+	height: 83px;
+	width: 83px;
+}
+
+.cart-item-info h6 {
+	font-size: 14px;
+	color: #424242;
+	letter-spacing: 0px;
+	font-weight: 500;
+	margin: 0;
+}
+
+.cart-item-info {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	height: 75px;
+}
+
+.cart-item-info h3 {
+	font-size: 20px;
+	color: #f91944;
+	font-weight: 600;
+	letter-spacing: -1px;
+	margin: 0;
+}
+
+.cart-item-action {
+	display: flex;
+	width: 80px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.cart-item-action button {
+	border: none;
+	outline: none;
+	background: no-repeat;
+	font-size: 28px;
+}
+
+.cart-item-action span {
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: -1px;
+	color: #000;
+}
+
+.cart-item-info p {
+	margin: 0;
+	font-size: 12px;
+	color: #adadad;
+}
+
+.cart-item-img {
+	width: 20%;
+}
+
+.cart-item-info {
+	width: 30%;
+}
+
+.cart-item-action {
+	width: 20%;
+	height: 70px;
+	align-items: center;
+}
+
+.cart-item-action span {
+	padding: 3px 15px;
+	background: #ffff;
+	border-radius: 5px;
+}
+
+.cart-calculate ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 130px;
+	color: #3d3d3d;
+	font-weight: 500;
+}
+
+.cart-calculate li {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.cart-calculate span {
+	font-weight: 500;
+}
+
+.highlight {
+	font-weight: 700 !important;
+	color: #000;
+}
+
+.place-order-btn {
+	width: 90%;
+	border: none;
+	background: #cecece;
+	height: 55px;
+	color: #ffff;
+	font-size: 18px;
+	border-radius: 5px;
+	outline: none;
+}
+
+.cart-calculate {
+	margin: 25px 0px;
+}

@@ -1,0 +1,151 @@
+.order-summery-page {
+	height: 90vh;
+	display: flex;
+	align-items: center;
+}
+
+.map img {
+	width: 100%;
+}
+
+.order-summery {
+	height: 100%;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	background: #f5f5f5;
+	margin-left: auto;
+	border-radius: 10px;
+	padding: 10px 30px;
+}
+
+.delivery-man-icon img {
+	width: 60px;
+}
+
+.order-address {
+	padding: 10px 24px;
+	background: #ffff;
+	height: 150px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	border-radius: 10px;
+	padding-left: 40px;
+	position: relative;
+}
+
+.order-address h5 {
+	font-size: 14px;
+	color: #000;
+	font-weight: 500;
+}
+
+.order-address span {
+	display: block;
+	font-size: 12px;
+	color: gray;
+	line-height: 26px;
+}
+
+.order-address:before {
+	content: "";
+	position: absolute;
+	left: 20px;
+	top: 50%;
+	height: 50%;
+	margin-top: -14%;
+	width: 2px;
+	background: red;
+}
+
+.client-location {
+	position: relative;
+}
+
+.client-location:after {
+	position: absolute;
+	content: "";
+	height: 12px;
+	width: 12px;
+	border-radius: 10px;
+	left: -24px;
+	top: 10px;
+	background: #f91944;
+}
+
+.delivery-man-icon {
+	padding: 16px 10px;
+}
+.shop-location {
+	position: relative;
+}
+
+.shop-location:after {
+	content: "";
+	position: absolute;
+	left: -25px;
+	bottom: 20px;
+	height: 12px;
+	width: 12px;
+	background: #f91944;
+	border-radius: 15px;
+}
+
+.client-profile {
+	padding: 10px 24px;
+	background: #ffff;
+	height: 114px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	border-radius: 10px;
+	align-items: center;
+}
+
+.client-profile img {
+	height: 68px;
+	width: 40%;
+}
+
+.client-profile h4 {
+	font-size: 16px;
+	width: 50%;
+}
+
+.client-profile span {
+	font-size: 12px;
+	display: block;
+	line-height: 24px;
+	color: gray;
+}
+.delivery-time h1 {
+	margin: 0;
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 30px;
+}
+
+.delivery-time p {
+	font-size: 12px;
+	display: block;
+	line-height: 24px;
+	color: gray;
+}
+
+.client-profile {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+}
+
+.client-profile img {
+	width: 30%;
+}
+
+.client-profile h4 {
+	width: 65%;
+}

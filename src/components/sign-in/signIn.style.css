@@ -1,0 +1,50 @@
+.auth-area {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.sign-in {
+	text-align: center;
+}
+
+.forms-wrapper input {
+	display: block;
+	margin-bottom: 20px;
+	background: #f5f5f5;
+	border: none;
+	padding: 10px 20px;
+	width: 340px;
+	color: #a0a0a0;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: capitalize;
+	outline: none;
+	border-radius: 5px;
+}
+
+.sign-in-content {
+	text-align: center;
+}
+
+.forms-wrapper input[type="submit"] {
+	background: #f91a45;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 18px;
+	outline: none;
+}
+
+.toggleBtn {
+	border: none;
+	background: transparent;
+	color: #f91a45;
+	font-size: 14px;
+	line-height: 14px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 500;
+}
